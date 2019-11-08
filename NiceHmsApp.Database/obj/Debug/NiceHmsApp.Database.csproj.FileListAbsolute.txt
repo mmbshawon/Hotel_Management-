@@ -1,0 +1,17 @@
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\NiceHmsApp.Database.dll.config
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\NiceHmsApp.Database.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\NiceHmsApp.Database.pdb
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\EntityFramework.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\EntityFramework.SqlServer.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\NiceHmsApp.Models.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\NiceHmsApp.Models.pdb
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\EntityFramework.xml
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\bin\Debug\EntityFramework.SqlServer.xml
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.csprojAssemblyReference.cache
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.Migrations.init.resources
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.Migrations.lastUpForMarketing.resources
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.csproj.GenerateResource.cache
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.csproj.CoreCompileInputs.cache
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.csproj.CopyComplete
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Database\obj\Debug\NiceHmsApp.Database.pdb

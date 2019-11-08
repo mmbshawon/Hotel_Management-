@@ -1,0 +1,75 @@
+﻿@model IEnumerable<NiceHmsApp.Models.MarketingOffer>
+
+@{
+    ViewBag.Title = "OffersList";
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+}
+<p>
+    <a class="btn btn-success" href="@Url.Action("OffersReport")">Get Report</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Company
+        </th>
+        <th>
+           Benquet Discount
+        </th>
+        <th>
+            Room Discount
+        </th>
+        <th>
+            Restaurent Discount
+        </th>
+        <th>
+            Offer Type
+        </th>
+        <th>
+           Service Charge
+        </th>
+        <th>
+           Vat
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            Create Date
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MarketingCompany.company_full_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.benquet_discount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.room_discount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.restaurent_discount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.offer_type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.service_charge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.create_date)
+            </td>
+        </tr>
+    }
+
+</table>
+

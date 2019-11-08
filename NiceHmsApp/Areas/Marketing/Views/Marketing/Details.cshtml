@@ -1,0 +1,179 @@
+﻿@model NiceHmsApp.Models.MarketingCompany
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MarketingCompany</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.company_full_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company_full_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.company_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.permanent_address_1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.permanent_address_1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.permanent_address_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.permanent_address_2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.permanent_post_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.permanent_post_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.permanent_country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.permanent_country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.permanent_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.permanent_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.present_address_1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.present_address_1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.present_address_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.present_address_2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.present_post_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.present_post_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.present_country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.present_country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.present_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.present_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mobile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.web)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.web)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.create_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.create_date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="Nimble Code Execution System" />
+    <meta name="author" content="S.M.F.Karim (Tareq)" />
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Theme/plugins/images/favicon.png">
+    <title>@ViewBag.Title - NICE Software</title>
+
+    <!-- ===== Bootstrap CSS ===== -->
+    <link href="~/Theme/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ===== Plugin CSS ===== -->
+    <link href="~/Theme/plugins/components/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="~/Theme/plugins/components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!-- ===== Animation CSS ===== -->
+    <link href="~/Theme/css/animate.css" rel="stylesheet">
+    <!-- ===== Custom CSS ===== -->
+    <link href="~/Theme/css/style.css" rel="stylesheet">
+    <!-- ===== Color CSS ===== -->
+    <link href="~/Theme/css/colors/default.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    @RenderSection("style", required: false)
+
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body class="mini-sidebar fix-header fix-sidebar">
+    <!-- ===== Main-Wrapper ===== -->
+    <div id="wrapper">
+        <div class="preloader">
+            <div class="cssload-speeding-wheel"></div>
+        </div>
+
+        @Html.Partial("TopBar")
+        @Html.Partial("MenuBar")
+
+        <!-- ===== Page-Content ===== -->
+        <div class="page-wrapper">
+            <!-- ===== Page-Container ===== -->
+            <div class="container-fluid">
+
+                @RenderBody()
+
+            </div>
+            <!-- ===== Page-Container-End ===== -->
+            @Html.Partial("Footer")
+        </div>
+        <!-- ===== Page-Content-End ===== -->
+    </div>
+    <!-- ===== Main-Wrapper-End ===== -->
+    <!-- ==============================
+        Required JS Files
+    =============================== -->
+    <!-- ===== jQuery ===== -->
+    <script src="~/Theme/plugins/components/jquery/dist/jquery.min.js"></script>
+    <!-- ===== Bootstrap JavaScript ===== -->
+    <script src="~/Theme/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- ===== Slimscroll JavaScript ===== -->
+    <script src="~/Theme/js/jquery.slimscroll.js"></script>
+    <!-- ===== Wave Effects JavaScript ===== -->
+    <script src="~/Theme/js/waves.js"></script>
+    <!-- ===== Menu Plugin JavaScript ===== -->
+    <script src="~/Theme/js/sidebarmenu.js"></script>
+    <!-- ===== Custom JavaScript ===== -->
+    <script src="~/Theme/js/custom.js"></script>
+    <!-- ===== Plugin JS ===== -->
+    <script src="~/Theme/plugins/components/chartist-js/dist/chartist.min.js"></script>
+    <script src="~/Theme/plugins/components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="~/Theme/plugins/components/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Theme/plugins/components/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="~/Theme/plugins/components/knob/jquery.knob.js"></script>
+    <script src="~/Theme/plugins/components/easypiechart/dist/jquery.easypiechart.min.js"></script>
+    <script src="~/Theme/js/db1.js"></script>
+
+    @RenderSection("scripts", required: false)
+    <!-- ===== Style Switcher JS ===== -->
+    <script src="~/Theme/plugins/components/styleswitcher/jQuery.style.switcher.js"></script>
+
+
+</body>
+
+</html>

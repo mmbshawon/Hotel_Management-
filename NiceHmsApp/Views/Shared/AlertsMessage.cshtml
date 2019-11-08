@@ -1,0 +1,20 @@
+﻿
+@{
+    if (ViewBag.SuccessMessage != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><i class="fa fa-check" aria-hidden="true"></i> @ViewBag.SuccessMessage
+        </div>
+    }
+
+}
+
+@{
+    if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><i class="fa fa-times" aria-hidden="true"></i> @ViewBag.ErrorMessage
+        </div>
+    }
+
+}

@@ -1,0 +1,6 @@
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\bin\Debug\NiceHmsApp.Models.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\bin\Debug\NiceHmsApp.Models.pdb
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\obj\Debug\NiceHmsApp.Models.csprojAssemblyReference.cache
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\obj\Debug\NiceHmsApp.Models.csproj.CoreCompileInputs.cache
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\obj\Debug\NiceHmsApp.Models.dll
+G:\office work - nice soft\project\__masum_code\NiceHmsApp.Models\obj\Debug\NiceHmsApp.Models.pdb
